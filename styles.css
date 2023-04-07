@@ -129,6 +129,7 @@ a {
     align-items: center;
     background-color: #E5E7EB;
     padding: 110px 250px 110px 250px;
+    gap: 10px;
 }
 
 .quote-main {
@@ -158,11 +159,11 @@ a {
     display: flex;
     background-color: #3882F6;
     align-items: center;
-    justify-content: center;
-    padding: 30px 60px;
+    justify-content: space-between;
+    padding: 40px 300px;
     flex: 1;
+    flex-wrap: wrap;
     border-radius: 5px;
-    gap: 200px;
 }
 
 .b-t-call {
@@ -184,4 +185,15 @@ a {
     padding: 10px 40px;
     font-size: 16px;
     font-weight: 700;
+    flex-shrink: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px 40px;
+    font-size: 12px;
 }
