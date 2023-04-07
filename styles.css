@@ -79,3 +79,44 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.deck {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 110px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.card-box {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.card-text {
+    width: 200px;
+    text-align: center;
+}
