@@ -120,3 +120,28 @@ a {
     width: 200px;
     text-align: center;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 110px 250px 110px 250px;
+}
+
+.quote-main {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-source {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1F2937;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 20px;
+}
